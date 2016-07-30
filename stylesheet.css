@@ -20,7 +20,7 @@ p{
           display:inline-block;
           list-style-type:none;
           position: relative;
-          left: 220px;
+          left: 310px;
 }
 .nav li {
     float:left;
@@ -79,10 +79,16 @@ p{
       border-radius: 5px;
       
       }
-      #footnote{
+      #footnote p{
           width: 75%;
           height: auto;
          margin: auto;
-          text-align: left;
+         text-align: left;
           border-color: #000000;
+          
       }
+          id{
+           padding: 100px;   
+          }
+          
+      
