@@ -1,0 +1,88 @@
+body{
+    background-image: url(jpg);
+    color: #000204;
+    font-size: 87.5%;
+    /*font-size is a percent to accomadate different size screens*/
+    font-family: inconsolata, helvetica, san-serif ;
+    text-align: left;
+    clear: both;
+    /*clear: both is in to prevent image from being surrounded by words*/
+}
+
+p{
+    font-family: inconsolata;
+    /*inconsolata was chosen for its vintage look*/
+    text-align:center;
+    clear: both;
+}
+
+.nav ul{
+          display:inline-block;
+          list-style-type:none;
+          position: relative;
+          left: 220px;
+}
+.nav li {
+    float:left;
+    /*not sure why there's a left float but i like the results*/
+}
+.nav li a:link, .nav li a:visited {
+    text-decoration: none;
+    width: 145px;
+    display: block;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 2px;
+    }
+    .nav li a:hover, .nav li a:active{
+        background-color: lightgreen;
+        color: #000000;
+        /*like this green better than the darker one but had to change the font color from white to black*/
+    }
+    .content{
+        text-align: center;
+    }
+    img {
+      text-align: center;  
+    }
+       table, tr, td {
+           border: 1px solid #000000;
+           margin-left: auto;
+           margin-right: auto;
+           
+       } 
+    
+
+      a{
+          text-decoration: none;
+      }
+      
+      
+  
+      .body {
+          margin: 0 auto;
+          width: 78%;
+          text-align: left;
+          clear: both;
+          
+      }
+      .mainheader jpg{
+          width: 30%;
+          height: auto;
+          margin: 2% 8;
+      }
+  .mainheader nav{
+      background-color: #666;
+      height: 40px;
+      border-radius: 5px;
+      
+      }
+      #footnote{
+          width: 75%;
+          height: auto;
+         margin: auto;
+          text-align: left;
+          border-color: #000000;
+      }
